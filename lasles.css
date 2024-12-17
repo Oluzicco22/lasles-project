@@ -41,6 +41,9 @@ header {
     font-weight: 300;
     font-size: 17px;
 }
+.nav-links a:hover {
+    color: var(--bright-red);
+}
 .login-links {
     display: flex;
     align-items: center;
@@ -51,6 +54,9 @@ header {
     color: var(--bold-text-color);
     font-weight: 500;
     font-size: 17px;
+}
+.login-links a:hover {
+    color: var(--bright-red);
 }
 .signup-btn {
     outline: 1px solid var(--bright-red);
@@ -63,6 +69,10 @@ header {
     font-weight: 600;
     font-size: 17px;
     cursor: pointer;
+}
+.signup-btn:hover {
+    outline: 2px solid var(--bright-red);
+    font-size: 18px;
 }
 
 .homepage {
@@ -112,6 +122,9 @@ header {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+.start-btn:hover {
+    background-color: rgb(221, 0, 0);
 }
 
 .about {
@@ -221,6 +234,9 @@ header {
     justify-content: center;
     text-align: center;
 }
+.subplan:hover {
+    border: 2px solid var(--bright-red);
+}
 .plan-details {
     display: grid;
     gap: 35px;
@@ -255,6 +271,10 @@ header {
     font-weight: 700;
     font-size: 17px;
     cursor: pointer;
+}
+.plans-btn:hover {
+    background-color: red;
+    color: var(--plain-white);
 }
 .free-plan {
     gap: 130px;
@@ -365,6 +385,9 @@ header {
     border: 2px solid var(--gray-border);
     border-radius: 10px;
     gap: 15px;
+}
+.testi:hover {
+    border: 2px solid var(--bright-red);
 }
 .top-details {
     display: flex;
@@ -480,6 +503,9 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
+.sub-btn:hover {
+    background-color: rgb(221, 0, 0);
+}
 
 footer {
     background-color: var(--footer-bg);
@@ -521,4 +547,7 @@ footer {
 .footer-links a {
     text-decoration: none;
     color: var(--parag-and-links);
+}
+.footer-links a:hover {
+    color: var(--bright-red);
 }
